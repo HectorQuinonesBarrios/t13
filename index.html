@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div id="overparent">
+  <article id="overlap">
+    <h2><b>Nuevo alumno</b></h2>
+    <button id="cerrar">x</button>
+    <aside>
+        <ul>
+            <li><i>No debe haber espacios en blanco</i></li>
+            <li><i>La matricula debe ser un numero</i></li>
+            <li><i>La matricula debe ser de 6 digitos</i></li>
+        </ul>
+    </aside>
+    <hr width="100%">
+    <p><b>Matricula</b></p>
+    <input name="Matricula" placeholder="Matricula">
+    <p><b>Nombre</b></p>
+    <input name="Nombre" placeholder="Nombre">
+    <p><b>Apellido</b></p>
+    <input name="Apellido" placeholder="Apellido">
+    <p><b>Status</b></p>
+    <select id="status">
+         <option value="Inscrito">Inscrito</option>
+         <option value="No Inscrito">No inscrito</option>
+         <option value="Pasante">Pasante</option>
+         <option value="Egresado">Egresado</option>
+    </select>
+    <hr width="100%">
+    <button id="guardar">Guardar</button>
+    <button id="cambiar">Cambiar</button>
+  </article>
+  </div>
+  <div id="main">
+   <main>
+       <h1>Alumnos</h1>
+   </main>
+    <section id="contenido">
+        <table>
+           <thead>
+             <tr>
+               <th>id</th>
+               <th>Matricula</th>
+               <th>Nombre(s)</th>
+               <th>Apellido(s)</th>
+               <th>Condiciones</th>
+               <th><button id="add"><i class="fa fa-plus fa-2x" aria-hidden="true"></i></button></th>
+               <th><button id="update"><i class="fa fa-refresh fa-2x" aria-hidden="true"></i></button></th>
+             </tr>
+           </thead>
+           <tbody>
+               
+           </tbody>
+        </table>
+    </section>
+   </div>
+    
+</body>
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.2.3.min.js" type="text/javascript"></script>
+<script src="code.js" type="text/javascript"></script>
+</html>
