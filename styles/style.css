@@ -1,6 +1,8 @@
 body{
-    background: url(http://wallpapercave.com/wp/x545aFd.png) no-repeat center center fixed; 
+    background-image: url(http://wallpapercave.com/wp/x545aFd.png); 
     background-size: cover;
+    background-position: center;
+   background-attachment: fixed;
 }
 #main{
     width: 650px;
