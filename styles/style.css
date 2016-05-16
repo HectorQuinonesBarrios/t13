@@ -1,6 +1,6 @@
 body{
-    background-color: #333;
-    color: #333;
+    background: url(http://wallpapercave.com/wp/x545aFd.png) no-repeat center center fixed; 
+    background-size: cover;
 }
 #main{
     width: 650px;
@@ -46,7 +46,7 @@ table {
 th, td {
     text-align: left;
     padding: 8px;
-    border: 1px solid #333;
+    border: 1px solid #999;
 }
 tr th:last-child,tr td:last-child, tr th:nth-last-child(2),tr td:nth-last-child(2){
     text-align: center;
@@ -85,7 +85,7 @@ input:focus,select:focus {
     font-size: 16px;
     transition-duration: 0.4s;
     cursor: pointer;
-    background-color: #77dd77;
+    background-color: palegreen;
     color: black;
     
 }
@@ -99,12 +99,12 @@ td button{
     font-size: 16px;
     transition-duration: 0.4s;
     cursor: pointer;
-    background-color: #ff6961;
+    background-color: lightyellow;
     color: black;
 
 }
 #update, #cr{
-    background-color: #0099CC;
+    background-color: lightblue;
 }
 button:hover, #add:hover, #update:hover {
     background-color: #555555;
